@@ -1,439 +1,582 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Yoga Website | HTML, SASS & JavaScript</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YogShakti</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
     <!-- ==============  BOX ICON CDN ==============  -->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!-- ==============  LINK SWIPER'S CSS ==============  -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <nav>
-        <div class="container">
-            <a href="h3" class="nav_logo">
-                <h3>yogmetic</h3>
-            </a>
+      <div class="container">
+        <a href="h3" class="nav_logo">
+          <h3>YogShakti</h3>
+        </a>
 
-            <ul id="nav_items" class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#services">Our Approach</a></li>
-                <li><a href="#instructors">Our Instructors</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#bookplace" class="btn">Book Place</a></li>
-            </ul>
+        <ul id="nav_items" class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Our Approach</a></li>
+          <li><a href="#instructors">Our Instructors</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#bookplace" class="btn">Book Place</a></li>
+        </ul>
 
-            <button id="open_nav-btn"><i class='bx bx-menu'></i></button>
-            <button id="close_nav-btn"><i class='bx bx-x'></i></button>
-        </div>
+        <button id="open_nav-btn"><i class="bx bx-menu"></i></button>
+        <button id="close_nav-btn"><i class="bx bx-x"></i></button>
+      </div>
     </nav>
     <!-- ==============  END OF NAV ==============  -->
 
     <header>
-        <img src="./assets/yogaclass.jpg" alt="Photo Of A Yogmetic Yoga Class">
+      <img src="./assets/yogaclass.jpg" alt="Photo Of A YogShakti Yoga Class" />
     </header>
     <!-- ==============  END OF HEADER ==============  -->
 
     <section id="services">
-        <h2>OUR APPROACH</h2>
-        <p>
-            A welcoming yoga haven where all can find balance, strength, and peace.
-        </p>
+      <h2>OUR APPROACH</h2>
+      <p>
+        A welcoming yoga haven where all can find balance, strength, and peace.
+      </p>
 
-        <div class="container">
-            <article>
-                <i class='bx bxs-yin-yang'></i>
-                <div>
-                    <h4>Wellbeing</h4>
-                    <small>Elevate your wellbeing with our comprehensive service, offering tailored support, guidance, and resources to nurture your physical and mental health.</small>
-                </div>
-            </article>
+      <div class="container">
+        <article>
+          <i class="bx bxs-yin-yang"></i>
+          <div>
+            <h4>Wellbeing</h4>
+            <small
+              >Elevate your wellbeing with our comprehensive service, offering
+              tailored support, guidance, and resources to nurture your physical
+              and mental health.</small
+            >
+          </div>
+        </article>
 
-            <article>
-                <i class='bx bx-donate-blood'></i>
-                <div>
-                    <h4>Health</h4>
-                    <small>Our health service prioritises your well-being, providing expert care, innovative solutions, and a holistic approach to ensure your vitality.</small>
-                </div>
-            </article>
-            <article>
-                <i class='bx bx-heart'></i>
-                <div>
-                    <h4>Support</h4>
-                    <small>Embrace the strength of our yoga support service, offering guidance, encouragement, and a supportive community to deepen your practice.</small>
-                </div>
-            </article>
-            <article>
-                <i class='bx bx-donate-heart'></i>
-                <div>
-                    <h4>Community</h4>
-                    <small>Join our vibrant yoga community service, where like-minded individuals come together to foster connection and growth through practice and support.</small>
-                </div>
-            </article>
-            <article>
-                <i class='bx bx-happy-heart-eyes'></i>
-                <div>
-                    <h4>Inspiration</h4>
-                    <small>Fuel your inner fire with our yoga-inspired inspiration service, igniting creativity, motivation, and mindfulness on your transformative journey.</small>
-                </div>
-            </article>
-            <article>
-                <i class='bx bx-handicap'></i>
-                <div>
-                    <h4>Inclusive</h4>
-                    <small>Experience the power of inclusivity through our yoga service, embracing diversity, and providing a safe, welcoming space for all practitioners.</small>
-                </div>
-            </article>
-        </div>
+        <article>
+          <i class="bx bx-donate-blood"></i>
+          <div>
+            <h4>Health</h4>
+            <small
+              >Our health service prioritises your well-being, providing expert
+              care, innovative solutions, and a holistic approach to ensure your
+              vitality.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bx-heart"></i>
+          <div>
+            <h4>Support</h4>
+            <small
+              >Embrace the strength of our yoga support service, offering
+              guidance, encouragement, and a supportive community to deepen your
+              practice.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bx-donate-heart"></i>
+          <div>
+            <h4>Community</h4>
+            <small
+              >Join our vibrant yoga community service, where like-minded
+              individuals come together to foster connection and growth through
+              practice and support.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bx-happy-heart-eyes"></i>
+          <div>
+            <h4>Inspiration</h4>
+            <small
+              >Fuel your inner fire with our yoga-inspired inspiration service,
+              igniting creativity, motivation, and mindfulness on your
+              transformative journey.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bx-handicap"></i>
+          <div>
+            <h4>Inclusive</h4>
+            <small
+              >Experience the power of inclusivity through our yoga service,
+              embracing diversity, and providing a safe, welcoming space for all
+              practitioners.</small
+            >
+          </div>
+        </article>
+      </div>
     </section>
     <!-- ==============  END OF SERVICES ==============  -->
 
     <section id="instructors">
-        <h2>Our Instructors</h2>
-        <p>Our dedicated team of experienced yoga instructors brings expertise, passion, and a nurturing spirit to guide your transformative journey.</p>
-        <div class="container">
-            <article>
-                <div class="instructors_image">
-                    <img src="./assets/instructor1.jpg" alt="Instructor One">
-                </div>
-                <div class="instructor_details">
-                    <h4>Anna Peckel</h4>
-                    <small>Pilates & Zen Instructor</small>
-                </div>
-                <a href="https://instagram.com" class="instructor_instagram" target="_blank"><i
-                        class='bx bxl-instagram'></i></a>
-            </article>
+      <h2>Our Instructors</h2>
+      <p>
+        Our dedicated team of experienced yoga instructors brings expertise,
+        passion, and a nurturing spirit to guide your transformative journey.
+      </p>
+      <div class="container">
+        <article>
+          <div class="instructors_image">
+            <img src="./assets/instructor1.jpg" alt="Instructor One" />
+          </div>
+          <div class="instructor_details">
+            <h4>Anna Peckel</h4>
+            <small>Pilates & Zen Instructor</small>
+          </div>
+          <a
+            href="https://instagram.com"
+            class="instructor_instagram"
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </article>
 
-            <article>
-                <div class="instructors_image">
-                    <img src="./assets/instructor2.jpg" alt="Instructor Two">
-                </div>
-                <div class="instructor_details">
-                    <h4>Dane Anchor</h4>
-                    <small>Vinyasa Instructor</small>
-                </div>
-                <a href="https://instagram.com" class="instructor_instagram" target="_blank"><i
-                        class='bx bxl-instagram'></i></a>
-            </article>
-        
-            <article>
-                <div class="instructors_image">
-                    <img src="./assets/instructor3.jpg" alt="Instructor Three">
-                </div>
-                <div class="instructor_details">
-                    <h4>Jazmine Giavasis</h4>
-                    <small>Vinyasa Flow Instructor</small>
-                </div>
-                <a href="https://instagram.com" class="instructor_instagram" target="_blank"><i
-                        class='bx bxl-instagram'></i></a>
-            </article>
+        <article>
+          <div class="instructors_image">
+            <img src="./assets/instructor2.jpg" alt="Instructor Two" />
+          </div>
+          <div class="instructor_details">
+            <h4>Dane Anchor</h4>
+            <small>Vinyasa Instructor</small>
+          </div>
+          <a
+            href="https://instagram.com"
+            class="instructor_instagram"
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </article>
 
-            <article>
-                <div class="instructors_image">
-                    <img src="./assets/instructor4.jpg" alt="Instructor Four">
-                </div>
-                <div class="instructor_details">
-                    <h4>Meriella Tenzin</h4>
-                    <small>FitFlow Instructor</small>
-                </div>
-                <a href="https://instagram.com" class="instructor_instagram" target="_blank"><i
-                        class='bx bxl-instagram'></i></a>
-            </article>
+        <article>
+          <div class="instructors_image">
+            <img src="./assets/instructor3.jpg" alt="Instructor Three" />
+          </div>
+          <div class="instructor_details">
+            <h4>Jazmine Giavasis</h4>
+            <small>Vinyasa Flow Instructor</small>
+          </div>
+          <a
+            href="https://instagram.com"
+            class="instructor_instagram"
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </article>
 
-            <article>
-                <div class="instructors_image">
-                    <img src="./assets/instructor5.jpg" alt="Instructor Five">
-                </div>
-                <div class="instructor_details">
-                    <h4>Hailey Aeiko</h4>
-                    <small>Prana Vinyasa Instructor</small>
-                </div>
-                <a href="https://instagram.com" class="instructor_instagram" target="_blank"><i
-                        class='bx bxl-instagram'></i></a>
-            </article>
+        <article>
+          <div class="instructors_image">
+            <img src="./assets/instructor4.jpg" alt="Instructor Four" />
+          </div>
+          <div class="instructor_details">
+            <h4>Meriella Tenzin</h4>
+            <small>FitFlow Instructor</small>
+          </div>
+          <a
+            href="https://instagram.com"
+            class="instructor_instagram"
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </article>
 
-            <article>
-                <div class="instructors_image">
-                    <img src="./assets/instructor6.jpg" alt="Instructor Six">
-                </div>
-                <div class="instructor_details">
-                    <h4>Mian Owen</h4>
-                    <small>Resorative Meditation</small>
-                </div>
-                <a href="https://instagram.com" class="instructor_instagram" target="_blank"><i
-                        class='bx bxl-instagram'></i></a>
-            </article>
-        </div>
+        <article>
+          <div class="instructors_image">
+            <img src="./assets/instructor5.jpg" alt="Instructor Five" />
+          </div>
+          <div class="instructor_details">
+            <h4>Hailey Aeiko</h4>
+            <small>Prana Vinyasa Instructor</small>
+          </div>
+          <a
+            href="https://instagram.com"
+            class="instructor_instagram"
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </article>
+
+        <article>
+          <div class="instructors_image">
+            <img src="./assets/instructor6.jpg" alt="Instructor Six" />
+          </div>
+          <div class="instructor_details">
+            <h4>Mian Owen</h4>
+            <small>Resorative Meditation</small>
+          </div>
+          <a
+            href="https://instagram.com"
+            class="instructor_instagram"
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </article>
+      </div>
     </section>
     <!-- ==============  END OF INSTRUCTORS ==============  -->
 
-
     <section id="testimonials" class="swiper mySwiper">
-        <h2>Who We've Impacted</h2>
-        <p>Discover stories of transformation and gratitude as shared by those whose lives we've positively influenced at Yogmetic™.</p>
+      <h2>Who We've Impacted</h2>
+      <p>
+        Discover stories of transformation and gratitude as shared by those
+        whose lives we've positively influenced at YogShakti™.
+      </p>
 
-        <div class="swiper-wrapper">
-            <article class="swiper-slide">
-                <p>This yoga studio transformed my life. The instructors are incredible, and the classes cater to all levels. Highly recommend for everyone to visit!</p>
-                <div class="client">
-                    <div class="avatar">
-                        <img src="./assets/avatar1.jpg" alt="Client One">
-                    </div>
-                    <div class="client_details">
-                        <h5>Maxwell James</h5>
-                        <small>Client | Vinyasa</small>
-                    </div>
-                </div>
-            </article>
+      <div class="swiper-wrapper">
+        <article class="swiper-slide">
+          <p>
+            This yoga studio transformed my life. The instructors are
+            incredible, and the classes cater to all levels. Highly recommend
+            for everyone to visit!
+          </p>
+          <div class="client">
+            <div class="avatar">
+              <img src="./assets/avatar1.jpg" alt="Client One" />
+            </div>
+            <div class="client_details">
+              <h5>Maxwell James</h5>
+              <small>Client | Vinyasa</small>
+            </div>
+          </div>
+        </article>
 
-            <article class="swiper-slide">
-                <p>I've found my sanctuary here. Spirituality has never felt more inviting. A supportive community and expert guidance. Thank you!</p>
-                <div class="client">
-                    <div class="avatar">
-                        <img src="./assets/avatar2.jpg" alt="Client Two">
-                    </div>
-                    <div class="client_details">
-                        <h5>Nia Sullivan</h5>
-                        <small>Client | Resorative Meditation</small>
-                    </div>
-                </div>
-            </article>
+        <article class="swiper-slide">
+          <p>
+            I've found my sanctuary here. Spirituality has never felt more
+            inviting. A supportive community and expert guidance. Thank you!
+          </p>
+          <div class="client">
+            <div class="avatar">
+              <img src="./assets/avatar2.jpg" alt="Client Two" />
+            </div>
+            <div class="client_details">
+              <h5>Nia Sullivan</h5>
+              <small>Client | Resorative Meditation</small>
+            </div>
+          </div>
+        </article>
 
-            <article class="swiper-slide">
-                <p>Unparalleled experience! The holistic approach helps me find balance, both physically and mentally. Truly life-changing.</p>
-                <div class="client">
-                    <div class="avatar">
-                        <img src="./assets/avatar3.jpg" alt="Client Three">
-                    </div>
-                    <div class="client_details">
-                        <h5>Roxanne Brown</h5>
-                        <small>Client | FitFlow</small>
-                    </div>
-                </div>
-            </article>
+        <article class="swiper-slide">
+          <p>
+            Unparalleled experience! The holistic approach helps me find
+            balance, both physically and mentally. Truly life-changing.
+          </p>
+          <div class="client">
+            <div class="avatar">
+              <img src="./assets/avatar3.jpg" alt="Client Three" />
+            </div>
+            <div class="client_details">
+              <h5>Roxanne Brown</h5>
+              <small>Client | FitFlow</small>
+            </div>
+          </div>
+        </article>
 
-            <article class="swiper-slide">
-                <p>Grateful for this inclusive space. Yoga classes are diverse and inspiring, fostering connections and personal growth. I'm hooked!</p>
-                <div class="client">
-                    <div class="avatar">
-                        <img src="./assets/avatar4.jpg" alt="Client Four">
-                    </div>
-                    <div class="client_details">
-                        <h5>Chantel Jeff</h5>
-                        <small>Client | Prana Vinyasa</small>
-                    </div>
-                </div>
-            </article>
+        <article class="swiper-slide">
+          <p>
+            Grateful for this inclusive space. Yoga classes are diverse and
+            inspiring, fostering connections and personal growth. I'm hooked!
+          </p>
+          <div class="client">
+            <div class="avatar">
+              <img src="./assets/avatar4.jpg" alt="Client Four" />
+            </div>
+            <div class="client_details">
+              <h5>Chantel Jeff</h5>
+              <small>Client | Prana Vinyasa</small>
+            </div>
+          </div>
+        </article>
 
-            <article class="swiper-slide">
-                <p>Pilates has become my lifeline, thanks to this studio. The instructors radiate positivity, and the atmosphere is welcoming and warm.</p>
-                <div class="client">
-                    <div class="avatar">
-                        <img src="./assets/avatar5.jpg" alt="Client Five">
-                    </div>
-                    <div class="client_details">
-                        <h5>Jackie Bell</h5>
-                        <small>Client | Pilates & Zen</small>
-                    </div>
-                </div>
-            </article>
+        <article class="swiper-slide">
+          <p>
+            Pilates has become my lifeline, thanks to this studio. The
+            instructors radiate positivity, and the atmosphere is welcoming and
+            warm.
+          </p>
+          <div class="client">
+            <div class="avatar">
+              <img src="./assets/avatar5.jpg" alt="Client Five" />
+            </div>
+            <div class="client_details">
+              <h5>Jackie Bell</h5>
+              <small>Client | Pilates & Zen</small>
+            </div>
+          </div>
+        </article>
 
-            <article class="swiper-slide">
-                <p>Exceptional yoga services! My health and well-being have improved tremendously. The supportive community keeps me coming back.</p>
-                <div class="client">
-                    <div class="avatar">
-                        <img src="./assets/avatar6.jpg" alt="Client Six">
-                    </div>
-                    <div class="client_details">
-                        <h5>Gage Taylor</h5>
-                        <small>Client | Vinyasa</small>
-                    </div>
-                </div>
-            </article>
+        <article class="swiper-slide">
+          <p>
+            Exceptional yoga services! My health and well-being have improved
+            tremendously. The supportive community keeps me coming back.
+          </p>
+          <div class="client">
+            <div class="avatar">
+              <img src="./assets/avatar6.jpg" alt="Client Six" />
+            </div>
+            <div class="client_details">
+              <h5>Gage Taylor</h5>
+              <small>Client | Vinyasa</small>
+            </div>
+          </div>
+        </article>
 
-            <article class="swiper-slide">
-                <p>Incredible transformation through yoga. The instructors are knowledgeable, and the variety of classes keeps me engaged and motivated.</p>
-                <div class="client">
-                    <div class="avatar">
-                        <img src="./assets/avatar7.jpg" alt="Client Seven">
-                    </div>
-                    <div class="client_details">
-                        <h5>Ryan James</h5>
-                        <small>Client | FitFlow</small>
-                    </div>
-                </div>
-            </article>
-        </div>
-        <div class="swiper-pagination"></div>
+        <article class="swiper-slide">
+          <p>
+            Incredible transformation through yoga. The instructors are
+            knowledgeable, and the variety of classes keeps me engaged and
+            motivated.
+          </p>
+          <div class="client">
+            <div class="avatar">
+              <img src="./assets/avatar7.jpg" alt="Client Seven" />
+            </div>
+            <div class="client_details">
+              <h5>Ryan James</h5>
+              <small>Client | FitFlow</small>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
     </section>
     <!-- ==============  END OF TESTIMONIALS ==============  -->
 
     <section id="photogallery">
-        <h2>Us In Action</h2>
-        <p>A captivating photo gallery showcasing our dynamic and transformative yoga classes and community.</p>
+      <h2>Us In Action</h2>
+      <p>
+        A captivating photo gallery showcasing our dynamic and transformative
+        yoga classes and community.
+      </p>
 
-        <div class="container">
-            <div class="gallery">
-                <figure class="gallery__item gallery__item--1">
-                    <img src="./assets/gallery1.jpg" alt="Gallery image 1" class="gallery__img">
-                </figure>
-                <figure class="gallery__item gallery__item--2">
-                    <img src="./assets/gallery3.jpg" alt="Gallery image 2" class="gallery__img">
-                </figure>
-                <figure class="gallery__item gallery__item--3">
-                    <img src="./assets/gallery4.jpg" alt="Gallery image 3" class="gallery__img">
-                </figure>
-                <figure class="gallery__item gallery__item--4">
-                    <img src="./assets/gallery2.jpg" alt="Gallery image 4" class="gallery__img">
-                </figure>
-            </div>
+      <div class="container">
+        <div class="gallery">
+          <figure class="gallery__item gallery__item--1">
+            <img
+              src="./assets/gallery1.jpg"
+              alt="Gallery image 1"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item gallery__item--2">
+            <img
+              src="./assets/gallery3.jpg"
+              alt="Gallery image 2"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item gallery__item--3">
+            <img
+              src="./assets/gallery4.jpg"
+              alt="Gallery image 3"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item gallery__item--4">
+            <img
+              src="./assets/gallery2.jpg"
+              alt="Gallery image 4"
+              class="gallery__img"
+            />
+          </figure>
         </div>
+      </div>
     </section>
     <!-- ==============  END OF PHOTO GALLERY ==============  -->
 
     <section id="bookplace">
-        <div class="container">
-            <div class="info">
-                <h2>Book Your Place</h2>
-                <p>Ready to embark on your yoga journey with us? Book your transformative appointment now and discover inner peace.
-                </p>
+      <div class="container">
+        <div class="info">
+          <h2>Book Your Place</h2>
+          <p>
+            Ready to embark on your yoga journey with us? Book your
+            transformative appointment now and discover inner peace.
+          </p>
 
-                <article>
-                    <div class="info_icon"><i class='bx bx-user'></i></div>
+          <article>
+            <div class="info_icon"><i class="bx bx-user"></i></div>
 
-                    <div>
-                        <h4>Talented Staff</h4>
-                        <small>Our dedicated and talented staff is a passionate team committed to guiding you on your journey to wellness and growth.</small>
-                    </div>
-                </article>
-
-                <article>
-                    <div class="info_icon"><i class='bx bx-check-shield' ></i></div>
-
-                    <div>
-                        <h4>Quality Lessons</h4>
-                        <small>Experience the pinnacle of yoga education with our high-quality lessons, meticulously crafted to nurture your well-being and spiritual growth.</small>
-                    </div>
-                </article>
-
-                <article>
-                    <div class="info_icon"><i class='bx bx-lock-alt' ></i></div>
-
-                    <div>
-                        <h4>Tailored Private Classes</h4>
-                        <small>Elevate your practice with our exclusive private tailored classes, designed to cater to your unique needs and aspirations, empowering your journey.</small>
-                    </div>
-                </article>
+            <div>
+              <h4>Talented Staff</h4>
+              <small
+                >Our dedicated and talented staff is a passionate team committed
+                to guiding you on your journey to wellness and growth.</small
+              >
             </div>
+          </article>
 
-            <form action="https://formspree.io/f/moqrlrgl" method="POST">
-                <div class="form_group">
-                    <label for="name">Name</label>
-                    <input type="text" placeholder="Enter Your name" name="Client's Name" id="name" required>
-                </div>
+          <article>
+            <div class="info_icon"><i class="bx bx-check-shield"></i></div>
 
-                <div class="form_group">
-                    <label for="phone">Email Address</label>
-                    <input type="email" placeholder="Enter Your Email Address" name="Email Address" id="email" required>
-                </div>
+            <div>
+              <h4>Quality Lessons</h4>
+              <small
+                >Experience the pinnacle of yoga education with our high-quality
+                lessons, meticulously crafted to nurture your well-being and
+                spiritual growth.</small
+              >
+            </div>
+          </article>
 
-                <div class="form_group">
-                    <label for="phone">Phone Number</label>
-                    <input type="number" placeholder="Enter Your Phone Number" name="Phone Number" id="phone" required>
-                </div>
+          <article>
+            <div class="info_icon"><i class="bx bx-lock-alt"></i></div>
 
-                <div class="form_group">
-                    <label for="date">Date</label>
-                    <input type="date" placeholder="Choose a date" name="Date" id="date" required>
-                </div>
-
-                <div class="form_group">
-                    <label for="instructor">Select Instructor</label>
-                    <select name="Instructor" id="instructor" required>
-                        <option value="Anna Peckeln">Anna Peckeln</option>
-                        <option value="Dane Anchor">Dane Anchor</option>
-                        <option value="Jazmine Giavasis">Jazmine Giavasis</option>
-                        <option value="Meriella Tenzin">Meriella Tenzin</option>
-                        <option value="Hailey Aeiko">Hailey Aeiko</option>
-                        <option value="Mian Owen">Mian Owen</option>
-                    </select>
-                </div>
-
-                <div class="form_group">
-                    <label for="message">Message</label>
-                    <textarea name="Added Message" id="message" rows="6" placeholder="Add A Message"
-                        required></textarea>
-                </div>
-
-                <input type="submit" value="Submit Request" class="btn-primary">
-            </form>
+            <div>
+              <h4>Tailored Private Classes</h4>
+              <small
+                >Elevate your practice with our exclusive private tailored
+                classes, designed to cater to your unique needs and aspirations,
+                empowering your journey.</small
+              >
+            </div>
+          </article>
         </div>
+
+        <form action="booking_form.php" method="POST" id="registrationForm">
+          <div class="form_group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              placeholder="Enter Your name"
+              name="name"
+              id="name"
+              required
+            />
+          </div>
+
+          <div class="form_group">
+            <label for="phone">Email Address</label>
+            <input
+              type="email"
+              placeholder="Enter Your Email Address"
+              name="email"
+              id="email"
+              required
+            />
+          </div>
+
+          <div class="form_group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="number"
+              placeholder="Enter Your Phone Number"
+              name="phone"
+              id="phone"
+              required
+            />
+          </div>
+
+          <div class="form_group">
+            <label for="date">Date</label>
+            <input
+              type="date"
+              placeholder="Choose a date"
+              name="date"
+              id="date"
+              required
+            />
+          </div>
+
+          <div class="form_group">
+            <label for="instructor">Select Instructor</label>
+            <select name="instructor" id="instructor" required>
+              <option value="Anna Peckeln">Anna Peckeln</option>
+              <option value="Dane Anchor">Dane Anchor</option>
+              <option value="Jazmine Giavasis">Jazmine Giavasis</option>
+              <option value="Meriella Tenzin">Meriella Tenzin</option>
+              <option value="Hailey Aeiko">Hailey Aeiko</option>
+              <option value="Mian Owen">Mian Owen</option>
+            </select>
+          </div>
+
+          <div class="form_group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              rows="6"
+              placeholder="Add A Message"
+              required
+            ></textarea>
+          </div>
+
+          <input type="submit" value="Submit Request" class="btn-primary" />
+        </form>
+      </div>
     </section>
     <!-- ==============  END OF APPOINTMENTS ==============  -->
 
     <footer>
-        <div class="container">
-            <article>
-                <a href="#" class="footer_logo">
-                    <h3>YOGMETIC</h3>
-                </a>
-                <p>Elevate Your Life, One Breath at a Time.</p>
+      <div class="container">
+        <article>
+          <a href="#" class="footer_logo">
+            <h3>YOGSHAKTI</h3>
+          </a>
+          <p>Elevate Your Life, One Breath at a Time.</p>
 
-                <div>
-                    <i class='bx bxs-phone'></i>
-                    <small>+2333355555</small>
-                </div>
+          <div>
+            <i class="bx bxs-phone"></i>
+            <small>+2333355555</small>
+          </div>
 
-                <div>
-                    <i class='bx bx-mail-send'></i>
-                    <small>support@yogmetic.com</small>
-                </div>
-            </article>
+          <div>
+            <i class="bx bx-mail-send"></i>
+            <small>support@yogmetic.com</small>
+          </div>
+        </article>
 
-            <article>
-                <h3>Support</h3>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Cookie Policy</a>
-                <a href="#">Purchasing Policy</a>
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Career</a>
-            </article>
+        <article>
+          <h3>Support</h3>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookie Policy</a>
+          <a href="#">Purchasing Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Career</a>
+        </article>
 
-            <article>
-                <h3>Permalinks</h3>
-                <a href="#">Home</a>
-                <a href="#services">Services</a>
-                <a href="#instructors">Instructors</a>
-                <a href="#testimonials">Testimonials</a>
-            </article>
+        <article>
+          <h3>Permalinks</h3>
+          <a href="#">Home</a>
+          <a href="#services">Services</a>
+          <a href="#instructors">Instructors</a>
+          <a href="#testimonials">Testimonials</a>
+        </article>
 
-            <article>
-                <h3>Contact Us</h3>
-                <p>Press</p>
-                <p>FAQs</p>
-                <div class="footer_socials">
-                    <a href="#"><i class='bx bxl-linkedin'></i></a>
-                    <a href="#"><i class='bx bxl-twitter'></i></a>
-                    <a href="#"><i class='bx bxl-facebook'></i></a>
-                    <a href="#"><i class='bx bxl-instagram'></i></a>
-                </div>
-            </article>
-        </div>
-        <div class="copyright">
-            <small>&copy; Copyright YOGMETIC™. All Rights Reserved.</small>
-        </div>
+        <article>
+          <h3>Contact Us</h3>
+          <p>Press</p>
+          <p>FAQs</p>
+          <div class="footer_socials">
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+          </div>
+        </article>
+      </div>
+      <div class="copyright">
+        <small>&copy; Copyright YOGSHAKTI™. All Rights Reserved.</small>
+      </div>
     </footer>
     <!-- ==============  END OF FOOTER ==============  -->
 
     <!-- ==============  SWIPER JS ==============  -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
-</body>
-
+    <script src="form_validation.js"></script>
+  </body>
 </html>
