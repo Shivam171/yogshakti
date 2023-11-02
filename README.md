@@ -4,10 +4,10 @@
 
 YogShakti is a responsive yoga studio website built upon the foundation of "Yogmetic," originally created by [hodanmohamed](https://github.com/hodanmohamed). I am deeply grateful for their inspiring work in developing a beautiful website for Yogmetic.
 
+![Yogshakti](https://github.com/Shivam171/YogShakti/assets/66107248/ccde5f14-75ea-4ff2-9dd1-be58197fb4b2)
+
+
 ## Original Project 🏆
-
-[hodanmohamed's Yogmetic Repository](https://github.com/hodanmohamed/yogmetic)
-
 "Hodanmohamed's Yogmetic is a responsive website designed for Yogmetic, a yoga studio. It utilizes HTML, Sass, and JavaScript to provide an interactive and visually appealing website, catering to yoga enthusiasts, practitioners, and potential clients. The website offers information about Yogmetic's services, instructors, class schedules, and a seamless user experience for both beginners and experienced yogis."
 
 ## Changes and Enhancements ✨
