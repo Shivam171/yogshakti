@@ -5,7 +5,7 @@ ini_set('display_errors', '1');
 // ---- MySQL Data -----
 $servername = "localhost";
 $username = "shiv";
-$password = "Op@11901311";
+$password = " ";
 $database = "YogShakti";
 
 // Connecting with Database
