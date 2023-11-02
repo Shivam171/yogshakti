@@ -42,7 +42,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact 📧
 
 For inquiries or feedback, please contact [Shivam](mailto:shiv.op@gmail.com).
-
----
-
-I appreciate [hodanmohamed](https://github.com/hodanmohamed) for their original work, and I hope that the enhancements made in YogShakti will continue to benefit the yoga community and website development enthusiasts. Your contributions and feedback are welcome to make this project even better.
