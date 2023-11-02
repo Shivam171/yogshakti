@@ -24,7 +24,7 @@ In the process of recreating "YogShakti" from "Yogmetic," I made several modific
 
 ## How to Use 🚀
 
-To view and interact with the YogShakti website, you can simply visit the [live demo](URL_HERE) or clone this repository and open the `index.html` file in your preferred web browser.
+To view and interact with the YogShakti website, you can simply visit the [live demo](https://shivam171.github.io/YogShakti/) or clone this repository and open the `index.html` file in your preferred web browser.
 
 ## Credits 🙏
 
